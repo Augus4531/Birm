@@ -28,6 +28,8 @@ ARCH_FLAGS = -march=armv8.2-a+simd -mtune=ftc66x
 
 # 优化等级 (默认 O3)
 OPT_LEVEL  = -O3 -fopt-info-vec-missed
+# 不优化
+#OPT_LEVEL  = -O0
 
 # 警告与标准
 WARN_FLAGS = -Wall -Wextra -Wno-unused-parameter
@@ -46,6 +48,9 @@ INCLUDE_DIRS = -I./src/common \
 CFLAGS = $(ARCH_FLAGS) $(OPT_LEVEL) $(WARN_FLAGS) $(STD_FLAGS) \
          $(INCLUDE_DIRS)  \
          -ffast-math -funroll-loops -ftree-vectorize -fprefetch-loop-arrays -flto -faggressive-loop-optimizations
+# 汇总 CFLAGS (无强制附加优化)
+#CFLAGS = $(ARCH_FLAGS) $(OPT_LEVEL) $(WARN_FLAGS) $(STD_FLAGS) \
+#         $(INCLUDE_DIRS)
 
 # ============================================================================
 # 3. 链接选项 (LDFLAGS)

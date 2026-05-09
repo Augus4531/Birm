@@ -1,14 +1,31 @@
 #include "birm_arm_float_User.h"
+#include <stdlib.h>
 
 /**
- * @brief 快速排序分区函数 (从大到小)
+ * @brief 快速排序分区函数 (从大到小) - 随机主元优化
  */
 static int partition_desc(float *x, int *k, int low, int high)
 {
-	float pivot = x[high];
-	int i = low - 1;
+	// --- 优化：随机选择主元并交换到末尾 ---
+	int random_idx = low + rand() % (high - low + 1);
 	float temp;
 	int temp_idx;
+
+	// 交换随机选出的元素和最后一个元素
+	temp = x[random_idx];
+	x[random_idx] = x[high];
+	x[high] = temp;
+
+	if (k != NULL)
+	{
+		temp_idx = k[random_idx];
+		k[random_idx] = k[high];
+		k[high] = temp_idx;
+	}
+	// --------------------------------------
+
+	float pivot = x[high]; // 此时 x[high] 已经是随机选取的值
+	int i = low - 1;
 
 	for (int j = low; j < high; j++)
 	{
@@ -39,14 +56,30 @@ static int partition_desc(float *x, int *k, int low, int high)
 }
 
 /**
- * @brief 快速排序分区函数 (从小到大)
+ * @brief 快速排序分区函数 (从小到大) - 随机主元优化
  */
 static int partition_asc(float *x, int *k, int low, int high)
 {
-	float pivot = x[high];
-	int i = low - 1;
+	// --- 优化：随机选择主元并交换到末尾 ---
+	int random_idx = low + rand() % (high - low + 1);
 	float temp;
 	int temp_idx;
+
+	// 交换随机选出的元素和最后一个元素
+	temp = x[random_idx];
+	x[random_idx] = x[high];
+	x[high] = temp;
+
+	if (k != NULL)
+	{
+		temp_idx = k[random_idx];
+		k[random_idx] = k[high];
+		k[high] = temp_idx;
+	}
+	// --------------------------------------
+
+	float pivot = x[high]; // 此时 x[high] 已经是随机选取的值
+	int i = low - 1;
 
 	for (int j = low; j < high; j++)
 	{

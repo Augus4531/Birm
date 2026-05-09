@@ -1,0 +1,172 @@
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big1'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big1024'
+success
+the absolute difference mean is 0.0000000001, max is 0.0000000330
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big1048576'
+success
+the absolute difference mean is 0.0000000006, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big128'
+success
+the absolute difference mean is 0.0000000007, max is 0.0000000505
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big131072'
+success
+the absolute difference mean is 0.0000000006, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big16'
+success
+the absolute difference mean is 0.0000000019, max is 0.0000000300
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big16384'
+success
+the absolute difference mean is 0.0000000006, max is 0.0000000591
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big2'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big2048'
+success
+the absolute difference mean is 0.0000000004, max is 0.0000000542
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big256'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big262144'
+success
+the absolute difference mean is 0.0000000006, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big32'
+success
+the absolute difference mean is 0.0000000014, max is 0.0000000458
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big32768'
+success
+the absolute difference mean is 0.0000000006, max is 0.0000000594
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big4'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big4096'
+success
+the absolute difference mean is 0.0000000008, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big512'
+success
+the absolute difference mean is 0.0000000003, max is 0.0000000575
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big524288'
+success
+the absolute difference mean is 0.0000000005, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big64'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big65536'
+success
+the absolute difference mean is 0.0000000006, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big8'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/big8192'
+success
+the absolute difference mean is 0.0000000006, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/mix4096'
+success
+the absolute difference mean is 0.0000000007, max is 0.0000000594
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma1'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma1024'
+success
+the absolute difference mean is 0.0000000004, max is 0.0000000555
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma1048576'
+success
+the absolute difference mean is 0.0000000006, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma128'
+success
+the absolute difference mean is 0.0000000007, max is 0.0000000510
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma131072'
+success
+the absolute difference mean is 0.0000000006, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma16'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma16384'
+success
+the absolute difference mean is 0.0000000005, max is 0.0000000593
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma2'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma2048'
+success
+the absolute difference mean is 0.0000000005, max is 0.0000000587
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma256'
+success
+the absolute difference mean is 0.0000000008, max is 0.0000000521
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma262144'
+success
+the absolute difference mean is 0.0000000005, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma32'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma32768'
+success
+the absolute difference mean is 0.0000000005, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma4'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma4096'
+success
+the absolute difference mean is 0.0000000006, max is 0.0000000591
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma512'
+success
+the absolute difference mean is 0.0000000009, max is 0.0000000577
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma524288'
+success
+the absolute difference mean is 0.0000000006, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma64'
+success
+the absolute difference mean is 0.0000000006, max is 0.0000000363
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma65536'
+success
+the absolute difference mean is 0.0000000005, max is 0.0000000596
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma8'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmVsinF' with '/mnt/armData/birm_vsin_f/func/sma8192'
+success
+the absolute difference mean is 0.0000000005, max is 0.0000000587
+

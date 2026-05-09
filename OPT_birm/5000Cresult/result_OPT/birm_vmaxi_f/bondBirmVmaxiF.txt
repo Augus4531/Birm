@@ -1,0 +1,5 @@
+run 'bondBirmVmaxiF' with '/mnt/armData/birm_vmaxi_f/bond/x1equ0'
+success
+the absolute difference mean Y is 0.000000, max is 0.000000
+the absolute difference mean Id is 0.000000, max is 0.000000
+

@@ -1,0 +1,7 @@
+run 'excpBirmVvarF'
+test x1=NULL, and return valuse is -1
+test nx=0, and return valuse is -2
+test nx=-1, and return valuse is -2
+test y=NULL, and return valuse is -1
+success
+

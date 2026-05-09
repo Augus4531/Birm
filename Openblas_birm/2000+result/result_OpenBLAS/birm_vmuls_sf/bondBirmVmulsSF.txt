@@ -1,0 +1,8 @@
+run 'bondBirmVmulsSF' with '/mnt/armData/birm_vmuls_sf/bond/x1Equ0_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVmulsSF' with '/mnt/armData/birm_vmuls_sf/bond/x1Equ0_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

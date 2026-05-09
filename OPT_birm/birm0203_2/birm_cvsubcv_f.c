@@ -1,79 +1,110 @@
+#include <arm_neon.h>
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <string.h>
 #include "birm_arm_float_User.h"
-// 512k之前较快，best
-/**
- * @brief 复数矢量与复数矢量的减法
- */
-int birm_cvsubcv_f(const float *x1, const float *x2, const int nx, float *y) {
-    if (x1 == NULL || x2 == NULL || y == NULL) return -1;
-    if (nx <= 0) return -2;
+#define PREFETCH_THRESHOLD 262144
 
-    const float *px1 = x1;
-    const float *px2 = x2;
-    float *py = y;
+int birm_cvsubcv_f(const float *__restrict x1,
+                   const float *__restrict x2,
+                   const int nx,
+                   float *__restrict y)
+{
+    if (!x1 || !y || !x2)
+        return birmParamNullError;
+    if (nx <= 0)
+        return birmParamLengthInvalidError;
 
-    // 针对4k（4096）及以上数据量的优化路径（缓存友好型块处理）
-    if (nx >= 65536) {
-        // 块大小设置为256个复数（512字节），匹配飞腾L1缓存
-        const int block_size = 512; 
-        int total_blocks = nx / block_size;
-        int remaining = nx % block_size;
+    const int total_floats = nx * 2;
+    int i = 0;
 
-        // 块循环：编译器自动矢量化友好
-        for (int b = 0; b < total_blocks; b++) {
-            // 对每个块进行显式展开（4次），帮助编译器优化
-            for (int i = 0; i < block_size; i += 4) {
-                // 显式计算，便于PHYGCC自动生成飞腾向量指令
-                py[0] = px1[0] - px2[0];
-                py[1] = px1[1] - px2[1];
-                py[2] = px1[2] - px2[2];
-                py[3] = px1[3] - px2[3];
-                py[4] = px1[4] - px2[4];
-                py[5] = px1[5] - px2[5];
-                py[6] = px1[6] - px2[6];
-                py[7] = px1[7] - px2[7];
+    // ==========================================
+    // 场景 A: 小数据量 (nx < 2048)
+    // 策略：简单、紧凑、无预取、单路 NEON
+    // 目标：最小化启动开销和指令数
+    // ==========================================
+    if (nx <= 262144)
+    {
+        const int neon_loop = total_floats & ~7; // 8 floats align
 
-                px1 += 8;
-                px2 += 8;
-                py += 8;
-            }
+        // 2路展开 (2x128bit)，轻量级
+        for (; i < neon_loop; i += 8)
+        {
+            float32x4_t va0 = vld1q_f32(x1 + i);
+            float32x4_t vb0 = vld1q_f32(x2 + i);
+            float32x4_t va1 = vld1q_f32(x1 + i + 4);
+            float32x4_t vb1 = vld1q_f32(x2 + i + 4);
+
+            // 修改为减法指令 vsubq_f32
+            float32x4_t res0 = vsubq_f32(va0, vb0);
+            float32x4_t res1 = vsubq_f32(va1, vb1);
+
+            vst1q_f32(y + i, res0);
+            vst1q_f32(y + i + 4, res1);
         }
 
-        // 处理剩余元素
-        for (int i = 0; i < remaining; i++) {
-            py[0] = px1[0] - px2[0];
-            py[1] = px1[1] - px2[1];
-            px1 += 2;
-            px2 += 2;
-            py += 2;
+        // 处理尾部
+        for (; i < total_floats; i++)
+        {
+            y[i] = x1[i] - x2[i]; // 修改为减法
         }
-    } 
-    else {
-        // 小数据量保持原4次展开逻辑（不影响性能）
-        int unroll_count = nx / 4;
-        for (int i = 0; i < unroll_count; i++) {
-                py[0] = px1[0] - px2[0];
-                py[1] = px1[1] - px2[1];
-                py[2] = px1[2] - px2[2];
-                py[3] = px1[3] - px2[3];
-                py[4] = px1[4] - px2[4];
-                py[5] = px1[5] - px2[5];
-                py[6] = px1[6] - px2[6];
-                py[7] = px1[7] - px2[7];
-
-            px1 += 8;
-            px2 += 8;
-            py += 8;
-        }
-
-        int remaining = nx % 4;
-        for (int i = 0; i < remaining; i++) {
-            py[0] = px1[0] - px2[0];
-            py[1] = px1[1] - px2[1];
-            px1 += 2;
-            px2 += 2;
-            py += 2;
-        }
+        return birmSuccess;
     }
 
-    return 0;
+    // ==========================================
+    // 场景 B: 大数据量 (nx >= 4096)
+    // 策略：4路展开 + 预取
+    // 目标：隐藏内存延迟，最大化吞吐
+    // ==========================================
+
+    const int unroll_factor = 16; // 4路展开
+    const int main_loop_limit = total_floats & ~(unroll_factor - 1);
+
+    for (; i < main_loop_limit; i += unroll_factor)
+    {
+        // 仅在大数据量时开启预取
+        __builtin_prefetch(&x1[i + 64], 0, 0);
+        __builtin_prefetch(&x2[i + 64], 0, 0);
+
+        float32x4_t va0 = vld1q_f32(x1 + i);
+        float32x4_t vb0 = vld1q_f32(x2 + i);
+        float32x4_t va1 = vld1q_f32(x1 + i + 4);
+        float32x4_t vb1 = vld1q_f32(x2 + i + 4);
+        float32x4_t va2 = vld1q_f32(x1 + i + 8);
+        float32x4_t vb2 = vld1q_f32(x2 + i + 8);
+        float32x4_t va3 = vld1q_f32(x1 + i + 12);
+        float32x4_t vb3 = vld1q_f32(x2 + i + 12);
+
+        float32x4_t res0 = vsubq_f32(va0, vb0);
+        float32x4_t res1 = vsubq_f32(va1, vb1);
+        float32x4_t res2 = vsubq_f32(va2, vb2);
+        float32x4_t res3 = vsubq_f32(va3, vb3);
+
+        vst1q_f32(y + i, res0);
+        vst1q_f32(y + i + 4, res1);
+        vst1q_f32(y + i + 8, res2);
+        vst1q_f32(y + i + 12, res3);
+    }
+
+    // 处理剩余向量
+    const int neon_loop_limit = total_floats & ~3;
+    for (; i < neon_loop_limit; i += 4)
+    {
+        float32x4_t vec1 = vld1q_f32(x1 + i);
+        float32x4_t vec2 = vld1q_f32(x2 + i);
+        float32x4_t result = vsubq_f32(vec1, vec2); // 修改为减法指令
+        vst1q_f32(y + i, result);
+    }
+
+    // 处理剩余标量
+    for (; i < total_floats; i++)
+    {
+        y[i] = x1[i] - x2[i]; // 修改为减法
+    }
+
+    return birmSuccess;
 }

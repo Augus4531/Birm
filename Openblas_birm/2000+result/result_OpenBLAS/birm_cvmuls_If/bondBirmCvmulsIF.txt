@@ -1,0 +1,12 @@
+run 'bondBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/bond/x2equ0'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'bondBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/bond/x1equ0'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'bondBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/bond/x1x2equ0'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+

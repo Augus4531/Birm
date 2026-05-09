@@ -6,7 +6,7 @@
  * 公式:
  * Re(y) = Re(x1)*Re(x2) - Im(x1)*Im(x2)
  * Im(y) = Re(x1)*Im(x2) + Im(x1)*Re(x2)
- * 
+ *
  * 优化策略:
  * 1. 使用 NEON SIMD 并行计算。
  * 2. 利用 vmulq (乘法), vmlsq (乘减), vmlaq (乘加) 指令。
@@ -14,14 +14,21 @@
  */
 int birm_cvmulcv_f(const float *x1, const float *x2, const int nx, float *y)
 {
-    if(!x1 || !y || !x2) { return birmParamNullError; }
-    if(nx <= 0) { return birmParamLengthInvalidError; }
+    if (!x1 || !y || !x2)
+    {
+        return birmParamNullError;
+    }
+    if (nx <= 0)
+    {
+        return birmParamLengthInvalidError;
+    }
 
     int i = 0;
     // 每次循环处理 4 个复数 (即 8 个 float)
     int loop_end = nx & ~3; // nx - (nx % 4)
 
-    for (; i < loop_end; i += 4) {
+    for (; i < loop_end; i += 4)
+    {
         // 1. 加载并解交织 (De-interleave Load)
         // vld2q_f32 会把内存中的 [r0, i0, r1, i1...] 自动拆分加载到两个寄存器
         // x1_vec.val[0] 存放实部 (re1)，x1_vec.val[1] 存放虚部 (im1)
@@ -54,13 +61,14 @@ int birm_cvmulcv_f(const float *x1, const float *x2, const int nx, float *y)
     }
 
     // 处理剩余数据
-    for (; i < nx; i++) {
+    for (; i < nx; i++)
+    {
         float r1 = x1[i * 2];
         float i1 = x1[i * 2 + 1];
         float r2 = x2[i * 2];
         float i2 = x2[i * 2 + 1];
-        
-        y[i * 2]     = r1 * r2 - i1 * i2;
+
+        y[i * 2] = r1 * r2 - i1 * i2;
         y[i * 2 + 1] = r1 * i2 + i1 * r2;
     }
 

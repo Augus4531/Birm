@@ -15,14 +15,15 @@
  */
 int birm_fft_f(const float *x, const int fftN, fftwf_plan ffthandle, float *y)
 {
- 	if(!x || !y){return birmParamNullError;}
-	if(fftN<=0){return birmParamLengthInvalidError;}
+	if (!x || !y)
+	{
+		return birmParamNullError;
+	}
+	if (fftN <= 0)
+	{
+		return birmParamLengthInvalidError;
+	}
 
-	fftwf_execute_dft(ffthandle, (fftwf_complex*)x,(fftwf_complex*)y);
+	fftwf_execute_dft(ffthandle, (fftwf_complex *)x, (fftwf_complex *)y);
 	return birmSuccess;
 }
-
-
-
-
-

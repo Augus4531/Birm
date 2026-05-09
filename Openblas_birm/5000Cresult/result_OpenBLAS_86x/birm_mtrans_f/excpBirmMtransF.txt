@@ -1,0 +1,9 @@
+run 'excpBirmMtransF'
+test x1=NULL, and return valuse is -1
+test nn=0, and return valuse is -2
+test nn=-1, and return valuse is -2
+test mm=0, and return valuse is -2
+test mm=-1, and return valuse is -2
+test y=NULL, and return valuse is -1
+success
+

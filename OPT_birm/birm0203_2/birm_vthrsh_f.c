@@ -8,20 +8,26 @@
 int birm_vthrsh_f(const float *x1, const float x2, const int nx, float *y)
 {
     // 1. 参数检查
-    if (!x1 || !y) { return birmParamNullError; }
-    if (nx <= 0) { return birmParamLengthInvalidError; }
+    if (!x1 || !y)
+    {
+        return birmParamNullError;
+    }
+    if (nx <= 0)
+    {
+        return birmParamLengthInvalidError;
+    }
 
     int i = 0;
-    
+
     // 2. 准备阶段：将标量 x2 广播到向量寄存器中
     // v_threshold = {x2, x2, x2, x2}
     float32x4_t v_threshold = vdupq_n_f32(x2);
 
     // 计算主循环次数，每次处理 16 个数据
-    int blk_cnt = nx >> 4; 
+    int blk_cnt = nx >> 4;
 
-    const float * __restrict p_x1 = x1;
-    float * __restrict p_y = y;
+    const float *__restrict p_x1 = x1;
+    float *__restrict p_y = y;
 
     // 3. 主循环：NEON 并行处理 + 循环展开
     while (blk_cnt > 0)
@@ -46,7 +52,7 @@ int birm_vthrsh_f(const float *x1, const float x2, const int nx, float *y)
 
         // 指针推进
         p_x1 += 16;
-        p_y  += 16;
+        p_y += 16;
         blk_cnt--;
         i += 16;
     }

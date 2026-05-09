@@ -1,0 +1,20 @@
+run 'bondBirmVsinF' with '/mnt/armData/birm_vsin_f/bond/x1EquHalfPi'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVsinF' with '/mnt/armData/birm_vsin_f/bond/x1EquNegHalfPi'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVsinF' with '/mnt/armData/birm_vsin_f/bond/x1EquNegPi'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVsinF' with '/mnt/armData/birm_vsin_f/bond/x1EquPi'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVsinF' with '/mnt/armData/birm_vsin_f/bond/x1EquZero'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

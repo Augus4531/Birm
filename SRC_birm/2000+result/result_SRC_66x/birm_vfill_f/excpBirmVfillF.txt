@@ -1,0 +1,6 @@
+run 'excpBirmVfillF'
+test n=0, and return valuse is -2
+test n=-1, and return valuse is -2
+test y=NULL, and return valuse is -1
+success
+

@@ -4,19 +4,25 @@
 
 /**
  * @brief 浮点单精度实数完成32bit数据压缩为8bit (ARM64 NEON Pipeline Interleaved)
- * 策略: 
+ * 策略:
  * 1. 64路循环展开
  * 2. Load/Compute/Store 完全交错 (Ping-Pong)
  * 3. 利用寄存器堆掩盖 Cache Miss 和 Store Buffer 延迟
  */
 int birm_vpack8_f(const float *x, const int nx, int *y)
 {
-    if (!x || !y) { return birmParamNullError; }
-    if (nx <= 0) { return birmParamLengthInvalidError; }
+    if (!x || !y)
+    {
+        return birmParamNullError;
+    }
+    if (nx <= 0)
+    {
+        return birmParamLengthInvalidError;
+    }
 
-    const float * __restrict src = x;
-    int8_t * __restrict dst = (int8_t *)y;
-    
+    const float *__restrict src = x;
+    int8_t *__restrict dst = (int8_t *)y;
+
     int n_loop = nx >> 6; // nx / 64
     int rem = nx & 63;    // nx % 64
 
@@ -102,7 +108,7 @@ int birm_vpack8_f(const float *x, const int nx, int *y)
         int16x8_t vn0 = vcombine_s16(vmovn_s32(vcvtq_s32_f32(v0)), vmovn_s32(vcvtq_s32_f32(v1)));
         int16x8_t vn1 = vcombine_s16(vmovn_s32(vcvtq_s32_f32(v2)), vmovn_s32(vcvtq_s32_f32(v3)));
         int8x16_t res = vcombine_s8(vmovn_s16(vn0), vmovn_s16(vn1));
-        
+
         vst1q_s8(dst, res);
         src += 16;
         dst += 16;
@@ -115,7 +121,7 @@ int birm_vpack8_f(const float *x, const int nx, int *y)
                   (((int)(src[1]) & 0xff) << 8) |
                   (((int)(src[2]) & 0xff) << 16) |
                   (((int)(src[3]) & 0xff) << 24);
-        *(int*)dst = val;
+        *(int *)dst = val;
         src += 4;
         dst += 4;
         rem -= 4;
@@ -124,10 +130,13 @@ int birm_vpack8_f(const float *x, const int nx, int *y)
     if (rem > 0)
     {
         int val = 0;
-        if (rem >= 1) val |= ((int)(src[0]) & 0xff);
-        if (rem >= 2) val |= ((int)(src[1]) & 0xff) << 8;
-        if (rem == 3) val |= ((int)(src[2]) & 0xff) << 16;
-        *(int*)dst = val;
+        if (rem >= 1)
+            val |= ((int)(src[0]) & 0xff);
+        if (rem >= 2)
+            val |= ((int)(src[1]) & 0xff) << 8;
+        if (rem == 3)
+            val |= ((int)(src[2]) & 0xff) << 16;
+        *(int *)dst = val;
     }
 
     return birmSuccess;

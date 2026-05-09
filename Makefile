@@ -4,7 +4,7 @@
 # ============================================================================
 # 1. 基础配置
 # ============================================================================
-PROJECT_NAME = armBirmTest
+PROJECT_NAME = armBirmTest_VSIP
 
 # 目录定义
 SRC_DIR   = ./src
@@ -22,8 +22,8 @@ CC = gcc
 
 # 架构优化 (针对飞腾 S5000C)
 #ARCH_FLAGS = -march=armv8.2-a+simd+crc+crypto -mtune=ftc86x
-# 架构优化 (针对飞腾 2000+/64)
-ARCH_FLAGS = -march=armv8.2-a+simd -mtune=ftc66x
+# 架构优化 (针对飞腾 2000+/64)-mtune=ftc66x
+ARCH_FLAGS = -march=armv8.2-a+simd 
 #ARCH_FLAGS = -march=armv8-a -mtune=cortex-a53
 
 # 优化等级 (默认 O3)
@@ -43,6 +43,7 @@ INCLUDE_DIRS = -I./src/common \
                -I./src/test \
                -I./src/armPublic2/etime \
                -I/opt/arm/armpl_25.07_gcc/include \
+               -I./third_party/vsip/include
 
 # 汇总 CFLAGS
 CFLAGS = $(ARCH_FLAGS) $(OPT_LEVEL) $(WARN_FLAGS) $(STD_FLAGS) \
@@ -61,14 +62,15 @@ LIBRARY_PATHS = -L/opt/arm/armpl_25.07_gcc/lib \
                 -L$(SRC_DIR)/armPublic2/slog \
                 -L$(SRC_DIR)/armPublic2/etime \
                 -L$(LIB_DIR) \
-
+                -L./third_party/vsip/lib 
 # 需要链接的库 (-l)
 # 链接顺序说明：
 # 1. VSIPL (高层库)
 # 2. BLAS / FFTW (计算库)
 # 3. VML / SML (基础数学库)
 # 4. 系统库 (lm, lpthread)
-LIBS = -larmpl_lp64 -lamath -lastring \
+LIBS = -lvsip_ft2000_staticLib \
+       -larmpl_lp64 -lamath -lastring \
        -lslog \
        -letime \
        -static-libgfortran -static-libgcc \

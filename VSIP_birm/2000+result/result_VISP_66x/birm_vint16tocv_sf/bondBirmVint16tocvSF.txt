@@ -1,0 +1,16 @@
+run 'bondBirmVint16tocvSF' with '/mnt/armData/birm_vint16tocv_sf/bond/xequ1e6_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVint16tocvSF' with '/mnt/armData/birm_vint16tocv_sf/bond/xequ1e6_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVint16tocvSF' with '/mnt/armData/birm_vint16tocv_sf/bond/xequ0_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVint16tocvSF' with '/mnt/armData/birm_vint16tocv_sf/bond/xequ0_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

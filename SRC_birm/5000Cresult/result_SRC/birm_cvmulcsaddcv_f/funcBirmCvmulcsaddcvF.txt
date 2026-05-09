@@ -1,0 +1,172 @@
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big1024'
+success
+the absolute difference mean is 0.000000, max is 0.000005
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big1048576'
+success
+the absolute difference mean is 0.000000, max is 0.004438
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big131072'
+success
+the absolute difference mean is 0.000000, max is 0.001560
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big16384'
+success
+the absolute difference mean is 0.000000, max is 0.000046
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big2048'
+success
+the absolute difference mean is 0.000000, max is 0.000002
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big262144'
+success
+the absolute difference mean is 0.000000, max is 0.004219
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big32768'
+success
+the absolute difference mean is 0.000000, max is 0.005862
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big4096'
+success
+the absolute difference mean is 0.000000, max is 0.000021
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big512'
+success
+the absolute difference mean is 0.000000, max is 0.000002
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big524288'
+success
+the absolute difference mean is 0.000000, max is 0.000227
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big64'
+success
+the absolute difference mean is 0.000000, max is 0.000001
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big65536'
+success
+the absolute difference mean is 0.000000, max is 0.002986
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/big8192'
+success
+the absolute difference mean is 0.000000, max is 0.000113
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/mix4096'
+success
+the absolute difference mean is 0.000000, max is 0.000155
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma1024'
+success
+the absolute difference mean is 0.000000, max is 0.000035
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma1048576'
+success
+the absolute difference mean is 0.000000, max is 0.003447
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma128'
+success
+the absolute difference mean is 0.000000, max is 0.000001
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma131072'
+success
+the absolute difference mean is 0.000000, max is 0.000731
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma16384'
+success
+the absolute difference mean is 0.000000, max is 0.000101
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma2048'
+success
+the absolute difference mean is 0.000000, max is 0.000018
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma256'
+success
+the absolute difference mean is 0.000000, max is 0.000003
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma262144'
+success
+the absolute difference mean is 0.000000, max is 0.000932
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma32'
+success
+the absolute difference mean is 0.000002, max is 0.000143
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma32768'
+success
+the absolute difference mean is 0.000000, max is 0.000288
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma4096'
+success
+the absolute difference mean is 0.000000, max is 0.000030
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma512'
+success
+the absolute difference mean is 0.000000, max is 0.000002
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma524288'
+success
+the absolute difference mean is 0.000000, max is 0.004611
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma65536'
+success
+the absolute difference mean is 0.000000, max is 0.001802
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmCvmulcsaddcvF' with '/mnt/armData/birm_cvmulcsaddcv_f/func/sma8192'
+success
+the absolute difference mean is 0.000000, max is 0.000082
+

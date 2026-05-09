@@ -1,0 +1,4 @@
+run 'bondBirmVminF' with '/mnt/armData/birm_vmin_f/bond/x1equ0'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+

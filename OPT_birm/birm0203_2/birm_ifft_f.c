@@ -9,16 +9,19 @@
  * @param y         输出数据缓冲区指针 (复数，格式：[real, imag, real, imag...])
  * @return int      0: 成功, -1: 指针为空, -2: 点数错误
  */
-int birm_ifft_f(const float *x, const int fftN, fftwf_plan ffthandle, float *y) {
+int birm_ifft_f(const float *x, const int fftN, fftwf_plan ffthandle, float *y)
+{
     // 1. 参数校验
     // 输入指针 x 或输出指针 y 为空：异常返回 -1
-    if (x == NULL || y == NULL) {
-        return -1;
+    if (x == NULL || y == NULL)
+    {
+        return birmParamNullError;
     }
-    
+
     // 输入 FFT 点数小于等于 0：返回 -2
-    if (fftN <= 0) {
-        return -2;
+    if (fftN <= 0)
+    {
+        return birmParamLengthInvalidError;
     }
 
     // 2. 执行 FFTW 逆变换
@@ -37,12 +40,11 @@ int birm_ifft_f(const float *x, const int fftN, fftwf_plan ffthandle, float *y) 
 
     // 循环展开或 SIMD 优化通常由现代编译器 (-O2/-O3) 自动处理
     // 只要代码结构清晰，编译器会自动使用 AVX/NEON 指令进行向量化加速
-    for (int i = 0; i < total_elements; ++i) {
+    for (int i = 0; i < total_elements; ++i)
+    {
         y[i] *= scale;
     }
 
     // 正常：返回 0
-    return 0;
+    return birmSuccess;
 }
-
-

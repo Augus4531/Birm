@@ -1,0 +1,184 @@
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/mix4096_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_-1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/mix4096_-2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_-16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_-1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_-8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_-32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_-512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_-256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_-64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_-16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_-2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_-4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_-1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_-2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_-64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_-128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_-4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_-512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_-32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_-128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_-8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/big512_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_-256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_-1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVshiftF' with '/mnt/armData/birm_vshift_f/func/sma512_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

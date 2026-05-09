@@ -1,0 +1,12 @@
+run 'bondBirmMtransF' with '/mnt/armData/birm_mtrans_f/bond/x2equ000'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmMtransF' with '/mnt/armData/birm_mtrans_f/bond/x1x2equ0'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmMtransF' with '/mnt/armData/birm_mtrans_f/bond/x1equ000'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

@@ -1,0 +1,344 @@
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big1_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big8192_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/mix4096_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma16_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big16384_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big131072_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big524288_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big512_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma256_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big32_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma16384_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big16384_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma16384_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/mix4096_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big262144_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma32768_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big1048576_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma65536_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma32_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big2048_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma16_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma512_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma4096_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma2048_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma2048_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma4_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma1024_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma1_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma524288_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big131072_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma524288_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma8192_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma262144_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma512_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma4_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma131072_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big4_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big64_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma1048576_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma2_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big32_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma64_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big8_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma1_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma262144_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big1024_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big256_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big16_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big65536_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big2_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma256_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma8_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma8_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big4096_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma32_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma8192_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma64_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big8192_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big16_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big2_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big1_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma4096_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big512_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big128_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma2_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma1048576_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big524288_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big1024_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big65536_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big128_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big8_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma128_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma1024_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big32768_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big1048576_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big32768_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma65536_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma32768_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma128_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big4_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big4096_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big256_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big262144_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big64_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/sma131072_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmulvSF' with '/mnt/armData/birm_vmulv_sf/func/big2048_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

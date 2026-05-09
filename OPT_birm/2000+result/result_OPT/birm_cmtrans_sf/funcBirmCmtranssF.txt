@@ -1,0 +1,4 @@
+run 'funcBirmCmtranssF' with '/mnt/armData/birm_cmtrans_sf/func/mix4096'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

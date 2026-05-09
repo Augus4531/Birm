@@ -1,0 +1,972 @@
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big8_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma2_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1024_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big64_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1024_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big16_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big128_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma16_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma512_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big2_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big64_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1024_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big128_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big32_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma256_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big512_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma256_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1024_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1024_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big32_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big8_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma64_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma32_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma4_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma512_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma64_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big8_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big32_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma256_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big16_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big256_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma512_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big16_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma4_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1024_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big64_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big32_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big16_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big256_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma32_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big256_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1024_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big16_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big16_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big256_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma64_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma16_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma16_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma512_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma64_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma2_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big4_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma16_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma16_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big256_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma4_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big64_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma4_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma16_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big32_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big4_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big512_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big128_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1024_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big4_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma8_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma512_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big512_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big4_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big512_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma32_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big8_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma64_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma512_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma4_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big64_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma128_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big4_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big64_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma8_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma256_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big16_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma2_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big8_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big2_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma64_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big2_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big4_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma16_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma512_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma128_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big32_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma128_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big32_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1024_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma4_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big512_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big64_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big256_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big256_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma32_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big128_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big32_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1024_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma64_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big128_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big8_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big16_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma32_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1024_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big256_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big16_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big64_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big512_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big64_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma32_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma4_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big128_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big2_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma256_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big128_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big8_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big2_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma128_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma256_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma512_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big128_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma8_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma8_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1024_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma8_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big2_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma32_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1024_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big512_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma8_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma512_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma64_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma32_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma2_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma64_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big512_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big32_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big4_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big8_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1024_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big16_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big128_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big32_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big2_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big2_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma2_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big4_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big16_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big512_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big64_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma2_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma8_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1024_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma2_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma8_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma32_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma64_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1024_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big512_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big128_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma512_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma2_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1024_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma16_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma8_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma16_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1024_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma32_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma128_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma2_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big32_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big128_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma2_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big8_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big8_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big8_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma128_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma128_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma16_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma256_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma128_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/mix4096'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big2_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big512_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big2_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1024_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma128_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1024_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big2_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma4_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma256_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1024_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma128_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big4_2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big4_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big256_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big256_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big256_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma512_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma2_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma4_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma8_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma64_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big64_1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1024_512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma8_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma4_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma16_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma256_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma1_1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big1_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/big4_64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma256_32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma256_8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma128_256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma32_128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmMtransF' with '/mnt/armData/birm_mtrans_f/func/sma4_16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

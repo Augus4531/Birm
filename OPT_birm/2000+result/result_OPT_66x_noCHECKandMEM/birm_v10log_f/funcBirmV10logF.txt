@@ -1,0 +1,172 @@
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma32'
+success
+the absolute difference mean is 0.0000000164, max is 0.0000000590
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma2048'
+success
+the absolute difference mean is 0.0000000155, max is 0.0000000811
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma512'
+success
+the absolute difference mean is 0.0000000154, max is 0.0000000878
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma256'
+success
+the absolute difference mean is 0.0000000154, max is 0.0000000582
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big1024'
+success
+the absolute difference mean is 0.0000000186, max is 0.0000000936
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big65536'
+success
+the absolute difference mean is 0.0000000172, max is 0.0000001019
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big1'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma1048576'
+success
+the absolute difference mean is 0.0000000154, max is 0.0000001173
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big32768'
+success
+the absolute difference mean is 0.0000000174, max is 0.0000000971
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big2'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big4096'
+success
+the absolute difference mean is 0.0000000168, max is 0.0000001014
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big64'
+success
+the absolute difference mean is 0.0000000160, max is 0.0000000828
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma64'
+success
+the absolute difference mean is 0.0000000154, max is 0.0000000592
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big131072'
+success
+the absolute difference mean is 0.0000000172, max is 0.0000001134
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma4096'
+success
+the absolute difference mean is 0.0000000154, max is 0.0000001095
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma4'
+success
+the absolute difference mean is 0.0000000093, max is 0.0000000371
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big32'
+success
+the absolute difference mean is 0.0000000167, max is 0.0000000474
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big16384'
+success
+the absolute difference mean is 0.0000000174, max is 0.0000001118
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma2'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big2048'
+success
+the absolute difference mean is 0.0000000175, max is 0.0000000862
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big512'
+success
+the absolute difference mean is 0.0000000174, max is 0.0000000581
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big128'
+success
+the absolute difference mean is 0.0000000169, max is 0.0000000579
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma8'
+success
+the absolute difference mean is 0.0000000136, max is 0.0000000424
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big8'
+success
+the absolute difference mean is 0.0000000230, max is 0.0000000497
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big4'
+success
+the absolute difference mean is 0.0000000101, max is 0.0000000405
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma131072'
+success
+the absolute difference mean is 0.0000000155, max is 0.0000001155
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma16384'
+success
+the absolute difference mean is 0.0000000152, max is 0.0000001020
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma8192'
+success
+the absolute difference mean is 0.0000000159, max is 0.0000001062
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big16'
+success
+the absolute difference mean is 0.0000000163, max is 0.0000000466
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big262144'
+success
+the absolute difference mean is 0.0000000173, max is 0.0000001146
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma128'
+success
+the absolute difference mean is 0.0000000146, max is 0.0000000596
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big256'
+success
+the absolute difference mean is 0.0000000188, max is 0.0000000825
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big8192'
+success
+the absolute difference mean is 0.0000000177, max is 0.0000000963
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma32768'
+success
+the absolute difference mean is 0.0000000153, max is 0.0000001071
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big1048576'
+success
+the absolute difference mean is 0.0000000172, max is 0.0000001181
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma524288'
+success
+the absolute difference mean is 0.0000000154, max is 0.0000001136
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma1024'
+success
+the absolute difference mean is 0.0000000144, max is 0.0000000828
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/big524288'
+success
+the absolute difference mean is 0.0000000172, max is 0.0000001186
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma262144'
+success
+the absolute difference mean is 0.0000000155, max is 0.0000001183
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/mix4096'
+success
+the absolute difference mean is 0.0000000162, max is 0.0000000909
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma65536'
+success
+the absolute difference mean is 0.0000000154, max is 0.0000001117
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma16'
+success
+the absolute difference mean is 0.0000000258, max is 0.0000000634
+
+run 'funcBirmV10logF' with '/mnt/armData/birm_v10log_f/func/sma1'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+

@@ -9,20 +9,26 @@
  * 预取距离设定为 256 字节 (约4个循环步长)，确保数据提前到达 L1 Cache。
  * 3. 限制指针别名 (__restrict): 允许编译器进行激进的指令重排。
  */
-int birm_vlg_f(const float*  x1, const float* x2, const int nx, float* y)
+int birm_vlg_f(const float *x1, const float *x2, const int nx, float *y)
 {
-    if (!x1 || !x2 || !y) { return birmParamNullError; }
-    if (nx <= 0) { return birmParamLengthInvalidError; }
+    if (!x1 || !x2 || !y)
+    {
+        return birmParamNullError;
+    }
+    if (nx <= 0)
+    {
+        return birmParamLengthInvalidError;
+    }
 
     int i = 0;
-    
+
     // 准备常量 1.0f
     const float32x4_t v_one = vdupq_n_f32(1.0f);
 
-    // --- 预取距离设置 ---
-    // 经验值：对于顺序读取，通常预取前方 192~256 字节效果最好。
-    // 这可以让内存控制器在 CPU 处理当前数据时，并行搬运未来的数据。
-    #define PREFETCH_OFFSET 256
+// --- 预取距离设置 ---
+// 经验值：对于顺序读取，通常预取前方 192~256 字节效果最好。
+// 这可以让内存控制器在 CPU 处理当前数据时，并行搬运未来的数据。
+#define PREFETCH_OFFSET 256
 
     // 主循环：每次处理 16 个 float (64 字节)
     for (i = 0; i <= nx - 16; i += 16)
@@ -39,7 +45,7 @@ int birm_vlg_f(const float*  x1, const float* x2, const int nx, float* y)
         float32x4_t vx1_1 = vld1q_f32(x1 + i + 4);
         float32x4_t vx2_0 = vld1q_f32(x2 + i);
         float32x4_t vx2_1 = vld1q_f32(x2 + i + 4);
-        
+
         float32x4_t vx1_2 = vld1q_f32(x1 + i + 8);
         float32x4_t vx1_3 = vld1q_f32(x1 + i + 12);
         float32x4_t vx2_2 = vld1q_f32(x2 + i + 8);
@@ -60,9 +66,9 @@ int birm_vlg_f(const float*  x1, const float* x2, const int nx, float* y)
         float32x4_t vy3 = vreinterpretq_f32_u32(vandq_u32(mask3, vreinterpretq_u32_f32(v_one)));
 
         // [阶段4] 存储结果 (Store)
-        vst1q_f32(y + i,      vy0);
-        vst1q_f32(y + i + 4,  vy1);
-        vst1q_f32(y + i + 8,  vy2);
+        vst1q_f32(y + i, vy0);
+        vst1q_f32(y + i + 4, vy1);
+        vst1q_f32(y + i + 8, vy2);
         vst1q_f32(y + i + 12, vy3);
     }
 

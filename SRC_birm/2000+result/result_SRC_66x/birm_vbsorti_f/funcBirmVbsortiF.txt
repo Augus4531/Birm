@@ -1,0 +1,124 @@
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma32'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma2048'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma512'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma256'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big1024'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big1'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big2'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big4096'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big64'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma64'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma4096'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma4'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big32'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big16384'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma2'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big2048'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big512'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big128'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma8'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big8'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big4'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma16384'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma8192'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big16'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma128'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big256'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/big8192'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma1024'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/mix4096'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma16'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+
+run 'funcBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/func/sma1'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+

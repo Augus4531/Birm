@@ -1,0 +1,4 @@
+run 'bondBirmVreversalF' with '/mnt/armData/birm_vreversal_f/bond/x1equ0'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

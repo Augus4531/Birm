@@ -12,20 +12,14 @@
  * ::birmParamNullError,
  * ::birmParamLengthInvalidError.
  */
-int birm_cvdotcv_f(const float *x1, const float *x2, const int nx, float *y)
+int birm_cvdotcv_f(const float *x1, const float *x2,  const int nx, float *y)
 {
-    if (!x1 || !x2 || !y)
-    {
-        return birmParamNullError;
-    }
-    if (nx <= 0)
-    {
-        return birmParamLengthInvalidError;
-    }
+	if(!x1 || !x2 || !y){return birmParamNullError;}
+	if(nx<=0){return birmParamLengthInvalidError;}
 
-    armpl_int_t inc = 1;
-    armpl_singlecomplex_t *_y = (armpl_singlecomplex_t *)y;
-    _y[0] = cdotu_(&nx, (armpl_singlecomplex_t *)x1, &inc, (armpl_singlecomplex_t *)x2, &inc);
+	armpl_int_t inc = 1;
+	armpl_singlecomplex_t *_y = (armpl_singlecomplex_t*)y;
+	_y[0] = cdotu_(&nx, (armpl_singlecomplex_t*)x1, &inc, (armpl_singlecomplex_t*)x2, &inc);
 
-    return birmSuccess;
+	return birmSuccess;
 }

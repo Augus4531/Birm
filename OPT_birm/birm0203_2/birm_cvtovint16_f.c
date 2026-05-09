@@ -4,7 +4,7 @@
 // 预取距离：通常设置为 2 到 4 个 Cache Line (1个 Cache Line 通常 64 字节)
 // 这里我们一次循环处理 16 个 float (64字节)，等于一个 Cache Line。
 // 预取距离设置为 320 字节左右 (即提前预取未来第 5-6 次循环的数据)
-#define PREFETCH_DISTANCE 80 
+#define PREFETCH_DISTANCE 80
 
 /**
  * @brief 针对大尺寸数组优化的浮点转定点函数
@@ -15,11 +15,17 @@
  */
 int birm_cvtovint16_f(const float *x, const int nx, int *y)
 {
-    if (!x || !y) { return birmParamNullError; }
-    if (nx <= 0) { return birmParamLengthInvalidError; }
+    if (!x || !y)
+    {
+        return birmParamNullError;
+    }
+    if (nx <= 0)
+    {
+        return birmParamLengthInvalidError;
+    }
 
     int i = 0;
-    
+
     // 每次主循环处理 16 个复数点 (16对 Re/Im)
     // 输入: 32 个 float (128 Bytes) -> 正好 2 个 Cache Line (假设64B)
     // 输出: 16 个 int (64 Bytes)
@@ -75,28 +81,34 @@ int birm_cvtovint16_f(const float *x, const int nx, int *y)
         vst1q_s16(pDstShort + 24, res3);
 
         // 更新指针
-        pSrc += 32;       // 16 个复数 = 32 个 float
-        pDstShort += 32;  // 16 个复数 = 32 个 short
+        pSrc += 32;      // 16 个复数 = 32 个 float
+        pDstShort += 32; // 16 个复数 = 32 个 short
         blkCnt--;
     }
 
     // 处理剩余尾部数据 (同之前版本)
-    i = (nx >> 4) << 4; 
+    i = (nx >> 4) << 4;
     short *yTemp = (short *)y + (i * 2);
 
     for (; i < nx; i++)
     {
-        float re_f = x[2*i];
-        float im_f = x[2*i+1];
+        float re_f = x[2 * i];
+        float im_f = x[2 * i + 1];
         short re, im;
 
-        if(re_f < -32768.0f) re = -32768;
-        else if(re_f > 32767.0f) re = 32767;
-        else re = (short)re_f;
+        if (re_f < -32768.0f)
+            re = -32768;
+        else if (re_f > 32767.0f)
+            re = 32767;
+        else
+            re = (short)re_f;
 
-        if(im_f < -32768.0f) im = -32768;
-        else if(im_f > 32767.0f) im = 32767;
-        else im = (short)im_f;
+        if (im_f < -32768.0f)
+            im = -32768;
+        else if (im_f > 32767.0f)
+            im = 32767;
+        else
+            im = (short)im_f;
 
         yTemp[0] = re;
         yTemp[1] = im;
@@ -105,4 +117,3 @@ int birm_cvtovint16_f(const float *x, const int nx, int *y)
 
     return birmSuccess;
 }
-

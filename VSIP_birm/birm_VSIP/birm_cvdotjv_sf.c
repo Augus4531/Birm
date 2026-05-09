@@ -19,7 +19,7 @@ int birm_cvdotjv_sf(const float *x1, const int sa, const float *x2, const int sb
     vsip_cblockadmit_f(blk_x2, VSIP_TRUE);
 
     // vsip_cvjdot_f 会对第一个参数取共轭
-    vsip_cscalar_f res = vsip_cvjdot_f(vw_x2, vw_x1);
+    vsip_cscalar_f res = vsip_cvjdot_f(vw_x1, vw_x2);
     y[0] = res.r;
     y[1] = res.i;
 

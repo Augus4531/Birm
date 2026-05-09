@@ -1,0 +1,12 @@
+run 'bondBirmVsqrtF' with '/mnt/armData/birm_vsqrt_f/bond/x1EquPiontZero1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVsqrtF' with '/mnt/armData/birm_vsqrt_f/bond/x1EquPiont1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVsqrtF' with '/mnt/armData/birm_vsqrt_f/bond/x1Equ0'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

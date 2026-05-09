@@ -1,87 +1,147 @@
+
 #include "birm_arm_float_User.h"
+#include <arm_neon.h>
 
-/**
- * @brief 复数矩阵截取转置函数
- * 
- * @param x 输入复数矩阵指针 (行主序，每个复数包含实部和虚部)
- * @param nn 矩阵x的行数
- * @param mm 矩阵x的列数
- * @param sa 输出矩阵y的行数
- * @param sb 输出矩阵y的列数
- * @param y 计算结果输出矩阵指针
- * @return int 0表示成功，负数表示错误
- */
- 
- 
-int birm_cmtrans_small(const float *x, int nn, int mm, int sa, int sb, float *y)
+// 核心优化函数：处理 4x4 复数块的转置
+// 利用 NEON 寄存器进行数据交换，减少内存跨步访问开销
+static inline void transpose_4x4_complex_neon(const float *src, float *dest, int src_stride_elements, int dest_stride_elements)
 {
-    const float *__restrict x_restrict = x;
-    float *__restrict y_restrict = y;
-    
+    // src_stride_elements: 源矩阵一行的 float 元素个数 (mm * 2)
+    // dest_stride_elements: 目标矩阵一行的 float 元素个数 (sa * 2)
 
-    for (int j = 0; j < sb; j++) {
-        float* dst_row = &y_restrict[j * sa * 2];
-        
-        // SIMD 向量化
-        #pragma omp simd
-        for (int i = 0; i < sa; i++) {
-            const int src_idx = (i * mm + j) * 2;
-            const int dst_idx = i * 2;
-            
-            dst_row[dst_idx] = x_restrict[src_idx];
-            dst_row[dst_idx + 1] = x_restrict[src_idx + 1];
-        }
-    }
-    return 0;
+    // 加载 4 行数据，每行 4 个复数（8个 float）
+    // 每个 float32x4_t 保存 2 个复数
+    float32x4_t r0_0 = vld1q_f32(src);
+    float32x4_t r0_1 = vld1q_f32(src + 4);
+    src += src_stride_elements;
+
+    float32x4_t r1_0 = vld1q_f32(src);
+    float32x4_t r1_1 = vld1q_f32(src + 4);
+    src += src_stride_elements;
+
+    float32x4_t r2_0 = vld1q_f32(src);
+    float32x4_t r2_1 = vld1q_f32(src + 4);
+    src += src_stride_elements;
+
+    float32x4_t r3_0 = vld1q_f32(src);
+    float32x4_t r3_1 = vld1q_f32(src + 4);
+
+    // ---------------------------------------------------------
+    // 转置逻辑：将 float32x4 视为 uint64x2 (每个 uint64 是一个复数)
+    // 这样可以保持实部和虚部在一起移动，无需拆分
+    // ---------------------------------------------------------
+    uint64x2_t v0a = vreinterpretq_u64_f32(r0_0); // Row 0: C0, C1
+    uint64x2_t v0b = vreinterpretq_u64_f32(r0_1); // Row 0: C2, C3
+    uint64x2_t v1a = vreinterpretq_u64_f32(r1_0); // Row 1: C0, C1
+    uint64x2_t v1b = vreinterpretq_u64_f32(r1_1); // ...
+    uint64x2_t v2a = vreinterpretq_u64_f32(r2_0);
+    uint64x2_t v2b = vreinterpretq_u64_f32(r2_1);
+    uint64x2_t v3a = vreinterpretq_u64_f32(r3_0);
+    uint64x2_t v3b = vreinterpretq_u64_f32(r3_1);
+
+    // 第一级交换 (2x2 block 内部交换)
+    // trn1 取两个向量的低64位，trn2 取高64位
+    // 结果：t0 = {R0C0, R1C0}, t1 = {R0C1, R1C1}
+    uint64x2_t t0 = vtrn1q_u64(v0a, v1a);
+    uint64x2_t t1 = vtrn2q_u64(v0a, v1a);
+    uint64x2_t t2 = vtrn1q_u64(v2a, v3a);
+    uint64x2_t t3 = vtrn2q_u64(v2a, v3a);
+
+    uint64x2_t t4 = vtrn1q_u64(v0b, v1b);
+    uint64x2_t t5 = vtrn2q_u64(v0b, v1b);
+    uint64x2_t t6 = vtrn1q_u64(v2b, v3b);
+    uint64x2_t t7 = vtrn2q_u64(v2b, v3b);
+
+    // 第二级交换并写入 (组合成 4x1 的列)
+    // Dest Row 0 应该是原矩阵的 Col 0: {R0C0, R1C0, R2C0, R3C0}
+    // t0 包含前两个，t2 包含后两个
+
+    // 写入 Dest Row 0 (Col 0)
+    vst1q_f32(dest, vreinterpretq_f32_u64(t0));
+    vst1q_f32(dest + 4, vreinterpretq_f32_u64(t2));
+    dest += dest_stride_elements;
+
+    // 写入 Dest Row 1 (Col 1)
+    vst1q_f32(dest, vreinterpretq_f32_u64(t1));
+    vst1q_f32(dest + 4, vreinterpretq_f32_u64(t3));
+    dest += dest_stride_elements;
+
+    // 写入 Dest Row 2 (Col 2)
+    vst1q_f32(dest, vreinterpretq_f32_u64(t4));
+    vst1q_f32(dest + 4, vreinterpretq_f32_u64(t6));
+    dest += dest_stride_elements;
+
+    // 写入 Dest Row 3 (Col 3)
+    vst1q_f32(dest, vreinterpretq_f32_u64(t5));
+    vst1q_f32(dest + 4, vreinterpretq_f32_u64(t7));
 }
 
-
+// 通用处理函数，增加了对小矩阵的特化处理
 int birm_cmtrans_sf(const float *x, const int nn, const int mm,
                     const int sa, const int sb, float *y)
 {
-    if (x == NULL || y == NULL) return -1;
-    if (nn <= 0 || mm <= 0 || sa <= 0 || sb <= 0 || sa > nn || sb > mm) return -2;
-    
-    
-    // 专门优化64x64、128x128的情况（调用的小函数已改为单核）
-    if (nn == 128 && mm == 128 ) {
-        return birm_cmtrans_small(x, nn, mm, sa, sb, y);
-    }
-    if (nn == 64 && mm == 64 ) {
-        return birm_cmtrans_small(x, nn, mm, sa, sb, y);
-    }
-    const int block_size = 64;
-    const float *__restrict x_restrict = x;
-    float *__restrict y_restrict = y;
-    
+    if (x == NULL || y == NULL)
+        return birmParamNullError;
+    // sa是输出行数(原列数)，sb是输出列数(原行数)
+    if (nn <= 0 || mm <= 0 || sa <= 0 || sb <= 0 || sb > nn || sa > mm)
+        return birmParamLengthInvalidError;
 
-    for (int jb = 0; jb < sb; jb += block_size) {
-        for (int ib = 0; ib < sa; ib += block_size) {
-            // 分支预测优化保留
-            const int j_end = __builtin_expect((jb + block_size) < sb, 1) ? 
-                            (jb + block_size) : sb;
-            const int i_end = __builtin_expect((ib + block_size) < sa, 1) ? 
-                            (ib + block_size) : sa;
-            
-            // 循环展开优化保留
-            #pragma GCC unroll(4)
-            for (int i = ib; i < i_end; i++) {
-                const float* src_row = &x_restrict[i * mm * 2];
-                
-                // 保留 SIMD 向量化和对齐优化（单核下仍有效）
-                
-                #pragma omp simd safelen(8) aligned(src_row:32) aligned(y_restrict:32)
-                
-                for (int j = jb; j < j_end; j++) {
-                    const int src_idx = j * 2;
-                    const int dst_idx = (j * sa + i) * 2;
-                    
-                    y_restrict[dst_idx] = src_row[src_idx];
-                    y_restrict[dst_idx + 1] = src_row[src_idx + 1];
+    // 针对 32x32, 64x64, 128x128 等中小尺寸矩阵的优化路径
+    // 使用 16x16 的分块策略（Block Tiling）来适配 L1 Cache
+    const int BLOCK_SIZE = 16;
+
+    for (int i = 0; i < sb; i += BLOCK_SIZE)
+    {
+        for (int j = 0; j < sa; j += BLOCK_SIZE)
+        {
+
+            // 处理边界情况
+            int i_limit = (i + BLOCK_SIZE < sb) ? i + BLOCK_SIZE : sb;
+            int j_limit = (j + BLOCK_SIZE < sa) ? j + BLOCK_SIZE : sa;
+
+            int ii = i;
+            // 4x4 主循环：一次处理 4 行 4 列
+            for (; ii <= i_limit - 4; ii += 4)
+            {
+                int jj = j;
+                for (; jj <= j_limit - 4; jj += 4)
+                {
+                    // 计算源地址和目标地址
+                    // 源矩阵是 mm 列 (每行 mm 个复数 = 2*mm float)
+                    // 目标矩阵是 sa 列 (每行 sa 个复数 = 2*sa float)
+                    const float *src_ptr = x + (ii * mm + jj) * 2;
+                    float *dest_ptr = y + (jj * sa + ii) * 2; // 注意转置后的索引计算
+
+                    // 调用 NEON 优化核
+                    transpose_4x4_complex_neon(src_ptr, dest_ptr, mm * 2, sa * 2);
+                }
+                // 处理列剩余 (不足4列的部分)
+                for (; jj < j_limit; ++jj)
+                {
+                    for (int k = 0; k < 4; ++k)
+                    {
+                        const float *s = x + ((ii + k) * mm + jj) * 2;
+                        float *d = y + (jj * sa + (ii + k)) * 2;
+                        // 复制一个复数
+                        d[0] = s[0];
+                        d[1] = s[1];
+                    }
+                }
+            }
+
+            // 处理行剩余 (不足4行的部分)
+            for (; ii < i_limit; ++ii)
+            {
+                for (int jj = j; jj < j_limit; ++jj)
+                {
+                    const float *s = x + (ii * mm + jj) * 2;
+                    float *d = y + (jj * sa + ii) * 2;
+                    d[0] = s[0];
+                    d[1] = s[1];
                 }
             }
         }
     }
-    
-    return 0;
+
+    return birmSuccess;
 }

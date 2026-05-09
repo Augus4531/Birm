@@ -11,16 +11,24 @@
  */
 int birm_cvtovint16_sf(const float *x, const int sa, const int nx, int *y, const int sb)
 {
-    if (!x || !y) { return birmParamNullError; }
-    if (nx <= 0 || sa <= 0 || sb <= 0) { return birmParamLengthInvalidError; }
+    if (!x || !y)
+    {
+        return birmParamNullError;
+    }
+    if (nx <= 0 || sa <= 0 || sb <= 0)
+    {
+        return birmParamLengthInvalidError;
+    }
 
-    if (sa == 1 && sb == 1) {
+    if (sa == 1 && sb == 1)
+    {
         int i = 0;
         int blkCnt = nx >> 2; // nx / 4
         const float *pSrc = x;
         int16_t *pDstShort = (int16_t *)y;
 
-        while (blkCnt > 0) {
+        while (blkCnt > 0)
+        {
             float32x4_t f0 = vld1q_f32(pSrc);
             float32x4_t f1 = vld1q_f32(pSrc + 4);
             int32x4_t i32_0 = vcvtq_s32_f32(f0);
@@ -33,13 +41,14 @@ int birm_cvtovint16_sf(const float *x, const int sa, const int nx, int *y, const
             blkCnt--;
         }
         // 处理剩余部分
-        for (i = (nx >> 2) << 2; i < nx; i++) {
-            float re_f = x[2*i];
-            float im_f = x[2*i+1];
+        for (i = (nx >> 2) << 2; i < nx; i++)
+        {
+            float re_f = x[2 * i];
+            float im_f = x[2 * i + 1];
             short re = (re_f < -32768.0f) ? -32768 : ((re_f > 32767.0f) ? 32767 : (short)re_f);
             short im = (im_f < -32768.0f) ? -32768 : ((im_f > 32767.0f) ? 32767 : (short)im_f);
-            ((short*)y)[2*i] = re;
-            ((short*)y)[2*i+1] = im;
+            ((short *)y)[2 * i] = re;
+            ((short *)y)[2 * i + 1] = im;
         }
         return birmSuccess;
     }
@@ -48,15 +57,16 @@ int birm_cvtovint16_sf(const float *x, const int sa, const int nx, int *y, const
     // 无法直接 vld1q 连续加载，需要手动 Gather/Scatter
     int i;
     int blkCnt = nx >> 2; // 每次处理4个复数点
-    
-    int in_step = 2 * sa; 
-    
+
+    int in_step = 2 * sa;
+
     const float *pSrc = x;
     int *pDst = y;
 
-    while (blkCnt > 0) {
+    while (blkCnt > 0)
+    {
         // [预取] 如果步长很大，提前预取下一次迭代的数据
-        __builtin_prefetch(pSrc + in_step * 8, 0, 0); 
+        __builtin_prefetch(pSrc + in_step * 8, 0, 0);
 
         // --- Step A: Gather (收集数据) ---
         // 我们需要凑齐4个复数 (8个float) 放入 NEON 寄存器
@@ -76,7 +86,7 @@ int birm_cvtovint16_sf(const float *x, const int sa, const int nx, int *y, const
         // 这里的计算与无步长版本完全一致，极快
         int32x4_t i32_0 = vcvtq_s32_f32(f_vec0);
         int32x4_t i32_1 = vcvtq_s32_f32(f_vec1);
-        
+
         // 饱和窄化：32bit -> 16bit
         int16x4_t n0 = vqmovn_s32(i32_0);
         // res 包含: [Re0, Im0, Re1, Im1, Re2, Im2, Re3, Im3] (全16位)
@@ -86,10 +96,10 @@ int birm_cvtovint16_sf(const float *x, const int sa, const int nx, int *y, const
         int32x4_t res_packaged = vreinterpretq_s32_s16(res);
 
         // 直接写 int 类型，避免两次 short 写操作，利用 CPU 写合并
-        pDst[0]          = vgetq_lane_s32(res_packaged, 0);
-        pDst[sb]         = vgetq_lane_s32(res_packaged, 1);
-        pDst[sb * 2]     = vgetq_lane_s32(res_packaged, 2);
-        pDst[sb * 3]     = vgetq_lane_s32(res_packaged, 3);
+        pDst[0] = vgetq_lane_s32(res_packaged, 0);
+        pDst[sb] = vgetq_lane_s32(res_packaged, 1);
+        pDst[sb * 2] = vgetq_lane_s32(res_packaged, 2);
+        pDst[sb * 3] = vgetq_lane_s32(res_packaged, 3);
 
         // 更新指针
         pSrc += in_step * 4;
@@ -102,21 +112,27 @@ int birm_cvtovint16_sf(const float *x, const int sa, const int nx, int *y, const
     // 重新计算当前的索引 i
     i = (nx >> 2) << 2;
     // 注意：这里的 pDst 和 pSrc 已经在 while 循环中更新过了，
-    
+
     for (; i < nx; i++)
     {
         float val_re = x[2 * i * sa];
         float val_im = x[2 * i * sa + 1];
-        
-        short re, im;
-        
-        if(val_re < -32768.0f) re = -32768;
-        else if(val_re > 32767.0f) re = 32767;
-        else re = (short)val_re;
 
-        if(val_im < -32768.0f) im = -32768;
-        else if(val_im > 32767.0f) im = 32767;
-        else im = (short)val_im;
+        short re, im;
+
+        if (val_re < -32768.0f)
+            re = -32768;
+        else if (val_re > 32767.0f)
+            re = 32767;
+        else
+            re = (short)val_re;
+
+        if (val_im < -32768.0f)
+            im = -32768;
+        else if (val_im > 32767.0f)
+            im = 32767;
+        else
+            im = (short)val_im;
 
         // 利用 int 指针写入一对 short
         // 假设小端序 (ARM 默认): Low=Re, High=Im
@@ -126,6 +142,3 @@ int birm_cvtovint16_sf(const float *x, const int sa, const int nx, int *y, const
 
     return birmSuccess;
 }
-
-
-

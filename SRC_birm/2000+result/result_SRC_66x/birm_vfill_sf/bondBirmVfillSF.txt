@@ -1,0 +1,8 @@
+run 'bondBirmVfillSF' with '/mnt/armData/birm_vfill_sf/bond/x1Equ0_1'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'bondBirmVfillSF' with '/mnt/armData/birm_vfill_sf/bond/x1Equ0_2'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+

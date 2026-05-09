@@ -3,12 +3,14 @@
 #include <stdint.h>
 #include "birm_arm_float_User.h"
 
-//2025-12-2
-//目前最快
+// 2025-12-2
+// 目前最快
 int birm_vpack16_f(const float *x, const int nx, int *y)
 {
-    if (!x || !y) return birmParamNullError;
-    if (nx <= 0) return birmParamLengthInvalidError;
+    if (!x || !y)
+        return birmParamNullError;
+    if (nx <= 0)
+        return birmParamLengthInvalidError;
 
     const float *src = x;
     int16_t *dst = (int16_t *)y;
@@ -78,16 +80,18 @@ int birm_vpack16_f(const float *x, const int nx, int *y)
     }
 
     int remainder_start_idx = nx - n;
-    int *y_int_ptr = y + (remainder_start_idx / 2); 
-    
-    if (n >= 2) {
+    int *y_int_ptr = y + (remainder_start_idx / 2);
+
+    if (n >= 2)
+    {
         int val = ((int)(src[0]) & 0xffff) | (((int)(src[1]) & 0xffff) << 16);
         *y_int_ptr++ = val;
         src += 2;
         n -= 2;
     }
-    
-    if (n > 0) {
+
+    if (n > 0)
+    {
         int val = (int)(src[0]) & 0xffff;
         *y_int_ptr = val;
     }

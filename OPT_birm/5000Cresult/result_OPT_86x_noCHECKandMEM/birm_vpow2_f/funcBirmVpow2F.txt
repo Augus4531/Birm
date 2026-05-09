@@ -1,0 +1,405 @@
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 1, mi is 0
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/100138'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 100138, mi is 17
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/1024'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 1024, mi is 10
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/1028702'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 1028702, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/1048576'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 1048576, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/107589'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 107589, mi is 17
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/109218'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 109218, mi is 17
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/124587'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 124587, mi is 17
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/128'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 128, mi is 7
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/131072'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 131072, mi is 17
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/135189'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 135189, mi is 18
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/152825'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 152825, mi is 18
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/154044'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 154044, mi is 18
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/16'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 16, mi is 4
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/16384'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 16384, mi is 14
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/16857'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 16857, mi is 15
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/1703'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 1703, mi is 11
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/1730'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 1730, mi is 11
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/174288'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 174288, mi is 18
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/181248'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 181248, mi is 18
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/185374'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 185374, mi is 18
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/192839'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 192839, mi is 18
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/2'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 2, mi is 1
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/2048'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 2048, mi is 11
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/23429'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 23429, mi is 15
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/2359'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 2359, mi is 12
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/2431'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 2431, mi is 12
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/256'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 256, mi is 8
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/262144'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 262144, mi is 18
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/3165'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 3165, mi is 12
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/3186'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 3186, mi is 12
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/32'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 32, mi is 5
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/3232'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 3232, mi is 12
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/32768'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 32768, mi is 15
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/333534'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 333534, mi is 19
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/35116'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 35116, mi is 16
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/36064'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 36064, mi is 16
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/375409'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 375409, mi is 19
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/3889'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 3889, mi is 12
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 4, mi is 2
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/4096'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 4096, mi is 12
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/41331'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 41331, mi is 16
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/430481'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 430481, mi is 19
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/441871'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 441871, mi is 19
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/452097'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 452097, mi is 19
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/472243'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 472243, mi is 19
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/47329'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 47329, mi is 16
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/493827'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 493827, mi is 19
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/512'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 512, mi is 9
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/524288'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 524288, mi is 19
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/5258'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 5258, mi is 13
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/541848'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 541848, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/54239'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 54239, mi is 16
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/563351'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 563351, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/5976'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 5976, mi is 13
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/6106'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 6106, mi is 13
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/63119'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 63119, mi is 16
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/6370'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 6370, mi is 13
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/64'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 64, mi is 6
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/651199'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 651199, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/65536'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 65536, mi is 16
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/695443'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 695443, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/7210'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 7210, mi is 13
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/736052'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 736052, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/7593'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 7593, mi is 13
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/759653'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 759653, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/7635'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 7635, mi is 13
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/769940'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 769940, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/7708'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 7708, mi is 13
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/8'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 8, mi is 3
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/8192'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 8192, mi is 13
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/830289'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 830289, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/8475'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 8475, mi is 14
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/8549'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 8549, mi is 14
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/860318'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 860318, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/86744'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 86744, mi is 17
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/872309'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 872309, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/8784'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 8784, mi is 14
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/9201'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 9201, mi is 14
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/968543'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 968543, mi is 20
+
+run 'funcBirmVpow2F' with '/mnt/armData/birm_vpow2_f/func/993053'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+the zhi is 993053, mi is 20
+

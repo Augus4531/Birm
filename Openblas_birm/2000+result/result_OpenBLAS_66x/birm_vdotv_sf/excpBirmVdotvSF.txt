@@ -1,0 +1,12 @@
+run 'excpBirmVdotvSF'
+test x1=NULL, and return value is -1
+test x2=NULL, and return value is -1
+test n=0, and return value is -2
+test n=-1, and return value is -2
+test y=NULL, and return value is -1
+test sa=0, and return value is -2
+test sb = 0, and return value is -2
+test sa=-1, and return value is -2
+test sb = -1, and return value is -2
+success
+

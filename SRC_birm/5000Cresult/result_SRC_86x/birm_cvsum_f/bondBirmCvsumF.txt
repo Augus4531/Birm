@@ -1,0 +1,4 @@
+run 'bondBirmCvsumF' with '/mnt/armData/birm_cvsum_f/bond/x1Equ0'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

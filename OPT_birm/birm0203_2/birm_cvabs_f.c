@@ -3,15 +3,20 @@
 #include <math.h>
 #include "birm_arm_float_User.h"
 
-int birm_cvabs_f(const float *x, int nx, float *y) {
-    if (x == NULL || y == NULL) return -1;
-    if (nx <= 0) return -2;
+int birm_cvabs_f(const float *x, int nx, float *y)
+{
+    if (x == NULL || y == NULL)
+        return birmParamNullError;
+    if (nx <= 0)
+        return birmParamLengthInvalidError;
 
     int i = 0;
 
     // 使用NEON处理主要部分 (每次处理4个复数 = 8个float)
-    if (nx >= 4) {
-        for (; i <= nx - 4; i += 4) {
+    if (nx >= 4)
+    {
+        for (; i <= nx - 4; i += 4)
+        {
             // 加载4个复数 (8个float)
             float32x4x2_t complex_data = vld2q_f32(x + i * 2);
 
@@ -35,12 +40,12 @@ int birm_cvabs_f(const float *x, int nx, float *y) {
     }
 
     // 处理剩余复数
-    for (; i < nx; ++i) {
+    for (; i < nx; ++i)
+    {
         float real = x[i * 2];
         float imag = x[i * 2 + 1];
         y[i] = sqrtf(real * real + imag * imag);
     }
 
-    return 0;
+    return birmSuccess;
 }
-

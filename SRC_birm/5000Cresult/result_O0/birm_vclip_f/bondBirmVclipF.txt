@@ -1,0 +1,8 @@
+run 'bondBirmVclipF' with '/mnt/armData/birm_vclip_f/bond/x1equ0'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVclipF' with '/mnt/armData/birm_vclip_f/bond/x2equ0'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

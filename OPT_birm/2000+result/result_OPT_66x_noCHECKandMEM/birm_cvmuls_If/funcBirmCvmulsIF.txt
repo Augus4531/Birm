@@ -1,0 +1,172 @@
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma32'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma2048'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma512'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma256'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big1024'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big65536'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big1'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma1048576'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big32768'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big2'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big4096'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big64'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma64'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big131072'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma4096'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma4'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big32'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big16384'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma2'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big2048'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big512'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big128'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma8'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big8'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big4'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma131072'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma16384'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma8192'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big16'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big262144'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma128'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big256'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big8192'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma32768'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big1048576'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma524288'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma1024'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/big524288'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma262144'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/mix4096'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma65536'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma16'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+
+run 'funcBirmCvmulsIF' with '/mnt/armData/birm_cvmuls_If/func/sma1'
+success
+the absolute difference mean is 0.0000000000, max is 0.0000000000
+

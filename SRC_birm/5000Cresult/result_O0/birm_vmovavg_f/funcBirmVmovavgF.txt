@@ -1,0 +1,9 @@
+run 'funcBirmVmovavgF' with '/mnt/armData/birm_vmovavg_f/func/big1'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'funcBirmVmovavgF' with '/mnt/armData/birm_vmovavg_f/func/big1024'
+success
+the absolute difference mean is 0.000006, max is 0.003625
+
+run 'funcBirmVmovavgF' with '/mnt/armData/birm_vmovavg_f/func/big1048576'

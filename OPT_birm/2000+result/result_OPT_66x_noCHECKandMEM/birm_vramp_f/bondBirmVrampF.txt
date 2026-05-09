@@ -1,0 +1,12 @@
+run 'bondBirmVrampF' with '/mnt/armData/birm_vramp_f/bond/Len_1024_x1_1000000_x2_0'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVrampF' with '/mnt/armData/birm_vramp_f/bond/Len_1024_x1_-1000000_x2_0'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVrampF' with '/mnt/armData/birm_vramp_f/bond/Len_1024_x1_0_x2_0'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

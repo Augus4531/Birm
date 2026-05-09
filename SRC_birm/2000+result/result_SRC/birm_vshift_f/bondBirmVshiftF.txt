@@ -1,0 +1,24 @@
+run 'bondBirmVshiftF' with '/mnt/armData/birm_vshift_f/bond/x1equ000_512_-4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVshiftF' with '/mnt/armData/birm_vshift_f/bond/x1x2equ0_512_-4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVshiftF' with '/mnt/armData/birm_vshift_f/bond/x1x2equ0_512_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVshiftF' with '/mnt/armData/birm_vshift_f/bond/x1equ000_512_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVshiftF' with '/mnt/armData/birm_vshift_f/bond/x2equ000_512_4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+
+run 'bondBirmVshiftF' with '/mnt/armData/birm_vshift_f/bond/x2equ000_512_-4'
+success
+the absolute difference mean is 0.000000, max is 0.000000
+

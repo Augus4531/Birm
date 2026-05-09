@@ -1,0 +1,5 @@
+run 'bondBirmVbsortiF' with '/mnt/armData/birm_vbsorti_f/bond/x1equ0'
+success
+the absolute difference Y mean is 0.000000, max is 0.000000
+the absolute difference K mean is 0.000000, max is 0.000000
+

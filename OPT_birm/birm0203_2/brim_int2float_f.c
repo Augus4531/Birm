@@ -3,27 +3,29 @@
 
 // 辅助函数：stnp (Store Pair Non-Temporal)
 // 保持这个函数，它对写性能至关重要
-static inline void vst1q_stream_f32_x2(float *addr, float32x4_t v0, float32x4_t v1) {
+static inline void vst1q_stream_f32_x2(float *addr, float32x4_t v0, float32x4_t v1)
+{
     asm volatile(
         "stnp %q[val0], %q[val1], [%[ptr]]"
-        : 
-        : [ptr] "r" (addr), [val0] "w" (v0), [val1] "w" (v1)
-        : "memory"
-    );
+        :
+        : [ptr] "r"(addr), [val0] "w"(v0), [val1] "w"(v1)
+        : "memory");
 }
 
 // 预取距离：320 Bytes (约 5 个 Cache Line)
 #define PREFETCH_DIST 320
 
-int birm_int2float_f(const int* x, const int nx, float* y)
+int birm_int2float_f(const int *x, const int nx, float *y)
 {
-    if (!x || !y) return birmParamNullError;
-    if (nx <= 0) return birmParamLengthInvalidError;
+    if (!x || !y)
+        return birmParamNullError;
+    if (nx <= 0)
+        return birmParamLengthInvalidError;
 
     int i = 0;
     // 每次处理 32个点 = 128 Bytes
     // 128 Bytes 正好是 2 个 Cache Line，也适合 DDR Burst
-    int blkCnt = nx >> 5; 
+    int blkCnt = nx >> 5;
 
     const int *pSrc = x;
     float *pDst = y;
@@ -38,19 +40,19 @@ int birm_int2float_f(const int* x, const int nx, float* y)
 
         // --- 2. 流水线核心 (保持交错) ---
         // 我们保持 Load-Convert-Store 的交错，但逻辑写得更紧凑
-        
+
         // Group 1: Load
         int32x4_t i0 = vld1q_s32(pSrc);
         int32x4_t i1 = vld1q_s32(pSrc + 4);
-        
+
         // Group 1: Convert (Start early)
         float32x4_t f0 = vcvtq_f32_s32(i0);
         float32x4_t f1 = vcvtq_f32_s32(i1);
-        
+
         // Group 2: Load (Insert between Calc & Store to hide latency)
         int32x4_t i2 = vld1q_s32(pSrc + 8);
         int32x4_t i3 = vld1q_s32(pSrc + 12);
-        
+
         // Group 1: Store (Stream output)
         vst1q_stream_f32_x2(pDst, f0, f1);
 
